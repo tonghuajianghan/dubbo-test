@@ -14,7 +14,7 @@ public class HelloZookeeper {
     private static ZooKeeper zk;
     private static final String ZOOKEEPER_ZNODE_NAME = "zookeeper";
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         startZK();
     }
 
